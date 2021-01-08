@@ -1,0 +1,69 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .welc-cont{
+        font-family: 'Nunito';
+        margin: 7% 4%;
+        color:#333333;
+    }
+    .title-welc{
+        font-size:18px;
+        font-weight: bold;
+        margin-bottom: 2%;
+        color:#333333;
+    }
+    .category{ 
+        display: flex; 
+        flex-direction: row; 
+        align-content: center;
+        font-family: 'Nunito';
+        width: 100vw;
+        justify-content: space-around;
+        padding-bottom: 15%;
+        color: #FFFFFF;
+    }
+    .cat-title{ 
+        font-size: 1em;
+        text-align: center;
+        margin-top: 10px;
+        color: #FFFFFF;
+    }
+    .cat-txt{ 
+        font-size: 0.8em;
+        text-align: center;
+        margin-top: -15px;
+        color: #FFFFFF;
+    }
+    .new{ 
+        background-color: #18D5CA;
+        padding-bottom: 6%;
+    }
+    .true{ 
+        background-color: #9B55FF;
+    }
+    .lover{ 
+        background-color: #EE9B00;
+    }
+    .new, .true, .lover{ 
+        border-radius: 8px; 
+        color: #FFFFFF;
+        margin: 0.5% 0.5% 1% 1%;
+    }
+    a, a:after, a:hover, a:visited, a:active{
+        text-decoration: none;
+        outline: none;
+    }
+    .walk, .run, .super{
+        position: absolute;
+    }
+    .walk{
+        width: 20vw;
+        left: 24px;
+    }
+    .run{
+        width: 20vw;
+        left: 164px;
+    }
+    .super{
+        width: 12vw;
+        left: 314px;
+    }
+}

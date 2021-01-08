@@ -1,0 +1,14 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+.box-imgGeo {
+  align-self: center;
+  padding-top: 7vh;
+  margin-bottom: -3vh;
+}
+
+.title-Geo {
+  text-align: center;
+  padding-bottom: 3vh;
+  color: #333333;
+ 
+}
+}

@@ -1,0 +1,10 @@
+@import "react-alice-carousel/lib/alice-carousel.css";
+.containerCarouselDiscLevel1{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color:#18D5CA;
+}
+.aliceCarDiscLvl1{
+    height: 40%;
+}

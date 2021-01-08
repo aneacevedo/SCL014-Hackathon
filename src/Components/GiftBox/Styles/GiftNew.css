@@ -1,0 +1,57 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .gift-new-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .aqua-box-new {
+    width: 358px;
+    height: 520px;
+    background: #18d5ca;
+    border-radius: 15px;
+    margin-top: 43px;
+  }
+  .p-gift-cont {
+    padding: 0 26px 33px;
+  }
+
+  .p-gift-new {
+    width: 306px;
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+  }
+
+  .gift-img {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 34px;
+  }
+
+  .button-gift-cont {
+    padding: 0 25px;
+  }
+
+  .btn-gift-new {
+    height: 41px;
+    background: #5c3eca;
+    border: 1px solid #d8d8d8;
+    border-radius: 5px;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-size: 14.5px;
+    line-height: 20px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .containerImgLock-new {
+    height: 16px;
+    width: 20px;
+    align-self: center;
+    margin-top: 8%;
+    padding-left: 115px;
+  }
+}

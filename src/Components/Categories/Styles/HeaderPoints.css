@@ -1,0 +1,26 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .headerPoints {
+    display: flex;
+    height: 41px;
+    background-color: #580ce5;
+    color: #ffff;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0% 3%;
+  }
+  .back-categories {
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .text-header-points {
+    width: 57vw;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,27 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .navigation-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 52px 66px;
+  }
+
+  .nav-forw {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .nav-forw {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .navigation-btn {
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-size: 13.8px;
+    color: #5806e5;
+    background-color: transparent;
+    border-style: none;
+  }
+}

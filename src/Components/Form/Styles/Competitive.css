@@ -1,0 +1,71 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .container-competitive {
+    display: flex;
+    flex-direction: column;
+    height: 62vh;
+    padding-top: 14vh;
+    width: 100%;
+  }
+
+  .AgeHeader {
+    width: 100%;
+    height: 44px;
+    background-color: #5c3eca;
+  }
+
+  .box-textCompetitive {
+    text-align: center;
+    width: 61vw;
+    margin-left: 9vh;
+    height: 56px;
+    top: 204px;
+  }
+
+  .btn-Competitive {
+    background-color: #ffff;
+    color: #555555;
+    font-weight: 500;
+    width: 184px;
+    height: 41px;
+    border-radius: 5px;
+    background: #ffffff;
+    border: 1px solid #d8d8d8;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    color: #555555;
+    margin: 22px 129px 0px;
+  }
+
+  .btn-Competitive3 {
+    background-color: #ffff;
+    color: #555555;
+    font-weight: 500;
+    width: 258px;
+    height: 41px;
+    border-radius: 5px;
+    background: #ffffff;
+    border: 1px solid #d8d8d8;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    color: #555555;
+    margin: 22px 129px 0px;
+  }
+
+  .box-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 23vh;
+    align-items: center;
+    padding-top: 6vh;
+    
+  }
+
+  .competitive-navigation {
+    padding-top: 225px;
+  }
+}

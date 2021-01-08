@@ -1,0 +1,47 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .container-icon-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    bottom: 0;
+    position: fixed;
+    width: 100vw;
+    background-color: #ffffff;
+    width: 100%;
+    height: 69px;
+    border-top: 1px solid #BDBDBD;
+    padding-top: 2%;
+  }
+ 
+  .icon-box1 {
+    width: 6vw;
+  }
+
+  .icon-box2 {
+    width: 7vw;
+  }
+
+  .icon-box3 {
+    width: 8vw;
+  }
+
+  .icon-box4 {
+    width: 6vw;
+  }
+
+  .icon-box5 {
+    width: 6vw;
+  }
+
+  .img-icon {
+    width: 100%;
+  }
+
+  .text-icon {
+    font-size: 0.6rem;
+    text-align: center;
+    color: #bdbdbd;
+    font-weight: bold;
+  }
+
+}

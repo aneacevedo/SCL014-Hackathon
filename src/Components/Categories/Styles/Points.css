@@ -1,0 +1,46 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .container-boxes {
+    display: flex;
+    flex-direction: column;
+  }
+  .boxPoints {
+    border: 1px solid #d8d8d8;
+  }
+  .titlePoints {
+    font-family: "Nunito";
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 600;
+    color: #333333;
+  }
+  .content-pointsText {
+    margin-left: 6vh;
+    font-size: 13px;
+    color: #999999;
+    width: 44vh;
+    padding-bottom: 4vh;
+  }
+  .circular-bar-points {
+    display: flex;
+    justify-content: center;
+    background: #fff;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+  }
+  .boxTitlePoints {
+    padding-top: 2vh;
+    margin-left: 6vh;
+    margin-right: 6vh;
+    display: flex;
+    justify-content: space-between;
+  }
+  .points {
+    color: #333333;
+    font-family: "Nunito";
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 600;
+  }
+  
+}
+

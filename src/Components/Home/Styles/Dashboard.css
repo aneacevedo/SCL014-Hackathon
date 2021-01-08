@@ -1,0 +1,38 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+.div1{
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+    font-family: 'Nunito';
+    border: 1px solid #D8D8D8;
+}
+.div2{
+    width: 90vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.iconbill{
+    height: 3.5vh;
+    padding-top: 3%;
+    padding-right: 3%;
+}
+.iconpers{
+    height: 3.5vh;
+    padding-top: 3%;
+    padding-right: 3%;
+}
+.myTitle{
+    font-size: 1.2rem;
+    color: #333333;
+}
+.myTxt{
+    font-size: 1rem;
+    color: #999999;
+}
+.date{
+    width: 10vw;
+    font-family: 'Nunito';
+    color: #999999;
+    flex-direction: row;
+}
+}

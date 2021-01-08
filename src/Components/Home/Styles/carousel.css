@@ -1,0 +1,72 @@
+@import "react-alice-carousel/lib/alice-carousel.css";
+.containerCarouselFather{
+    width: 100%;
+    background-color:  #C4C4C4;
+    
+}
+.containerCarousel1, .containerCarousel2{
+    padding:2%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    background-color: #5C3ECA ;
+    border-radius: 3px;
+    height: 80px;
+    align-items: center;
+    margin: 2% 2%;
+}
+.containerCarousel2{
+    background-color:#580CE5 ;
+}
+.containerTextCarousel, .containerTextCarouselSecondSlide, .containerTextCarousel3{
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 13.8px;
+    width: 60%;
+}
+.containerTextCarouselSecondSlide{
+  width:100%;
+}
+.containerTextCarousel3{
+    width:20%;
+}
+.titleCarousel{
+    margin-bottom: 3.5%;
+}
+
+.btnMisionCarousel, .btnMoreCarousel{
+    background-color: #FFFFFF;
+    color:#6200EE;
+    font-size:10px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    border:none;
+    padding:2%;
+}
+.btnMisionCarousel, .btnMoreCarousel{
+    height: 25px;
+    width:70px;
+}
+.imgCarousel{
+    width:100%;
+}
+.imgCarousel1{
+    height: 100%;
+}
+.containerImgQuestion{
+    width: 46px;
+    height: 46px;
+    margin:0% 3%;
+}
+.containerHomyCarousel{
+    height: 100%;
+    margin:0% 6%;
+}
+.containerPigCarousel{
+    margin:0% 5% 0% 0%;
+}
+
+.circular-barSlider{
+    width: 20vw;
+}

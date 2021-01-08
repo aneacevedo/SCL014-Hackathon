@@ -1,0 +1,25 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .dialogClass {
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #333333;
+  }
+  .titleT {
+    line-height: 28px;
+    font-size: 20px;
+    height: 56px;
+    width: 262px;
+    padding-left: 2vh;
+  }
+
+  .imgThnks {
+    width: 100%;
+  }
+  .imgdiv {
+    align-self: center;
+    width: 96px;
+    padding-top: 83px;
+  }
+}

@@ -1,0 +1,67 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+.containerPreferences {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+  height: 100vh;
+}
+.titlePreferences {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333333;
+  padding-top: 20px;
+}
+.textPreferences {
+  font-size: 13.8px;
+  color: #999999;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.containerTextPreferences {
+  padding: 0 51px;
+}
+.containerCheckBoxs {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0px 56px;
+}
+.container {
+  display: flex;
+  flex-flow: row nowrap;
+  border: 1px solid #d8d8d8;
+  padding: 3%;
+  border-radius: 5px;
+  font-size: 14.5px;
+  font-weight: bold;
+  color: #333333;
+  margin: 2.5%;
+  cursor: pointer;
+}
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.container:hover {
+  background-color: #d8d8d8;
+  border: 1px solid #5c3eca;
+}
+.container input:checked {
+  border: 1px solid #5c3eca;
+  background-color: #d8d8d8;
+}
+.container:active {
+  border: 1px solid #5c3eca;
+  background-color: #d8d8d8;
+}
+.containerEmoji {
+  width: 20px;
+  height: 15px;
+  margin-right: 2%;
+}
+.emoji {
+  width: 100%;
+}
+}

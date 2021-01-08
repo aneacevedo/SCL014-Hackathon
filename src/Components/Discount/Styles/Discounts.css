@@ -1,0 +1,24 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .dContainer{
+        display: flex;
+        justify-content: center;
+        margin-top: 20%;
+    }
+    .btndsc{
+        background-color: #d8d8d8;
+        color: #5C3ECA;
+        border: none;
+        border-radius: 5px;
+        height: 5vh;
+        width: 28vw;
+        font-size: 1rem;
+        font-weight: 600;
+        position: absolute;
+        right: 38%;
+        top: 218%;
+    }
+    .btndsc:hover{
+        background-color: #5C3ECA;
+        color: #FFF;
+    }
+}

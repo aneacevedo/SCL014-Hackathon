@@ -1,0 +1,34 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .purpleBox{
+        background-color: #5C3ECA;
+        border-radius: 8px;
+        padding: 5%;
+        margin: 20% 5% 0% 5%;
+        display: flex;
+    }
+    .logo-cont{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .logo{
+        width: 15vw;
+    }
+    .bodyTxt{
+        color: #FFFFFF;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .bodyTitle{
+        font-size: 1.2rem;
+    }
+    .bodySubt{
+        font-size: 1rem;
+    }
+    .girl{
+        margin-top: 10%;
+        width: 70vw;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,13 @@
+.containerIconMachelo{
+    position: fixed;
+    display:flex;
+    float: right;
+    width: 63px;
+    height: 63px;
+    right:0;
+    padding:7% 7% 7% 0%;
+    bottom: 70px;
+}
+.iconMachelito{
+    width: 100%;
+}

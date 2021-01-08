@@ -1,0 +1,24 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+ 
+  .container-text-discount-boxes {
+    display: flex;
+    flex-direction: column;
+    margin-left: 4vh;
+  }
+  .box-discount-welcome-text {
+    padding-top: 4vh;
+   
+  }
+  .Welcome-text-discount {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 25px;
+    color: #333333;
+  }
+  .container-text-discount {
+    padding-bottom: 5vh;
+  }
+  .text-discount2 {
+      color: #999999;
+  }
+}

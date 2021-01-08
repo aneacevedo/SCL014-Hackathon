@@ -1,0 +1,15 @@
+.containerTextInformation{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    padding: 9% 5% 4% 5%;
+    color: #333333;
+}
+.titleInformation{
+    font-weight: bold;
+    font-size:18px;
+    padding-bottom: 2%;
+}
+.textInformation{
+    font-size: 15px;
+}

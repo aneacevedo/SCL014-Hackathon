@@ -1,0 +1,139 @@
+.headerLevels{
+    display: flex;
+    width: 100%;
+    height: 41px;
+    background-color:#580CE5;   
+    color:#ffff;
+    align-items: center;
+    justify-content: space-between;
+    padding:0% 3%;
+}
+.containerMasterLevels{
+    display:flex;
+    justify-content: center;
+    width: 100%;
+}
+.containerCardLevel{
+    display: flex;
+    align-items:center;
+    flex-flow:column nowrap;
+    margin: 10% 0% 0% 3%;
+    border-radius: 15px;
+    height: auto;
+    width: 100vw;
+}
+.headCardLevel1, .headCardLevel2, .headCardLevel3{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-end;
+    width: 100%;
+    height: 100px;
+    background-color: #18D5CA;
+    border-radius: 15px 15px 0px 0px;
+    font-weight: bold;
+}
+.levelbold{
+    font-weight: 800;
+}
+.headCardLevel2{
+    background-color:#9B55FF ;
+}
+.headCardLevel3{
+    background-color: #EE9B00;
+}
+.containerTitle{
+    display: flex;
+    padding: 0% 0% 2% 8%;
+    flex-flow: row nowrap;
+    align-items: center;
+    font-weight: bold;
+    font-size: 22px;
+    color:#ffff;
+}
+.imgLevel{
+    width: 100%;
+}
+.containerImgLevelsWoman{
+    height: 36px ;
+    width: 36px;
+}
+.containerImgLevelsSuperHero{
+    height: 24px;
+    width: 22px;
+}
+.containerImgLock{
+    height: 16px;
+    width: 20px;
+    align-self: center;
+    margin-left: 38%;
+    margin-top: 8%;
+}
+.bodyCardLevel, .bodyCardLevel2, .bodyCardLevel3{
+    padding: 5% 8% 5% 8%;
+    font-size: 16px;
+    color:#999999;
+    border: 1px solid #18D5CA;
+    border-radius: 0px 0px 15px 15px;
+}
+.bodyCardLevel{
+    border: 1px solid #18D5CA;
+}
+.bodyCardLevel2{
+    border: 1px solid #9B55FF;
+}
+.bodyCardLevel3{
+    border: 1px solid #EE9B00;
+}
+.list1::marker {
+    color: #18D5CA;
+}
+.list2::marker{
+    color:#9B55FF;
+}
+.list3::marker{
+    color:#EE9B00;
+}
+.bottomCardLevel{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 5%;
+    margin-top: 15%;
+}
+.btnCardLevel{
+    background: #5C3ECA;
+    border: none;
+    border-radius: 5px;
+    color:#ffff;
+    height: 40px;
+    padding: 0% 5%;
+    font-weight: bold;
+    font-size:14.5px;
+}
+.btnCardLevel:hover{
+    background: #9B55FF;
+    color: #5C3ECA;
+}
+.btnCardLevelblck{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    background: #D8D8D8;
+    border-radius: 5px;
+    color:#999999;
+    height: 40px;
+    padding: 0% 5% 0% 5%;
+    font-weight: bold;
+    font-size:14.5px; 
+    cursor: no-drop;
+}
+
+.back-categories {
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
